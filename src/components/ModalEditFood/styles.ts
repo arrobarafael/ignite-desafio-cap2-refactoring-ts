@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 import { Form as Unform } from '@unform/web';
+import React from 'react';
+
+interface FormProps extends HTMLInputElement {}
 
 export const Form = styled(Unform)`
   padding: 48px 40px;

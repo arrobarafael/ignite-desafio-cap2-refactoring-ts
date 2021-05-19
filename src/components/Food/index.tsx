@@ -20,11 +20,6 @@ interface FoodProps {
 }
 
 function Food({ food, handleEditFood, handleDelete }: FoodProps) {
-  console.log('FOOD');
-  console.log(food);
-  console.log(handleEditFood);
-  console.log(handleDelete);
-
   const { available } = food;
   const [isAvailable, setIsAvailable] = useState(available);
 
